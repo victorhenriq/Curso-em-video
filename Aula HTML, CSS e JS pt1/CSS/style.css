@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    color:pink;
+}
+
+div#interface {
+    width: 1440px;
+    margin: 0px;
+    background-color: black;
+    margin: -35px auto 0px auto;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+div#libra img {
+    width: 500px;
+    margin: auto /*parte de cima */ auto /* direita */ auto /* parte de baixo */auto /* esquerda */;
+}
+
+p { 
+    text-align: justify;
+    text-indent: 35px;
+}
+
+h1 {
+    font-family: Ariel;
+    font-size: 35pt;
+    color: blue;
+    text-shadow: 3px 3px 0px yellow; /* sombra de texto */
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28pt;
+    color: red;
+}
+
+h3 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+    color: green;
+    text-shadow: 1px 1px 0px black;
+}
+
+/*h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19pt;
+}*/
+
+h4 {
+    font-size: 170%;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda {
+    text-align: center;
+    position: relative;
+    border: 8px solid black; /* borda */
+    
+}
+
+figure.foto-legenda img {
+    width: 100%; /* largura da imagem */
+    height: 100%;
+    
+}
+figure.foto-legenda figcaption { 
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .7); /* cor da box ao passar o mouse em cima */
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px; /* distancia da borda */
+    /*box-sizing: border-box; /* limita todo conteúdo pra ficar dentro da box */
+    box-shadow: auto auto auto auto ; /* coloca o elemento em uma caixa */
+    transition: opacity 1.5s; /* transição pra opacidade determinada */
+    box-sizing: border-box;
+}
+
+figure.foto-legenda:hover figcaption { /* hover adiciona caracteristicas a elementos ao passar o mouse em cima */
+    opacity: 1;
+}
+
+/* li {
+    text-transform: lowercase;
+} */
+
+
+
+/* Formatação da div menu */
+nav#menu {
+    margin: 0px 0px 0px -40px /* descoberto dps de eu mexer 2 dias nos itens do menu ao invés de mexer exatamente no menu */
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    color: green;
+    margin: 0%;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: red ;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.5s;
+}
+
+nav#menu li:hover {
+    background-color: blue;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu a:hover {
+    color: yellow   ;
+    text-decoration: underline;
+}
+
