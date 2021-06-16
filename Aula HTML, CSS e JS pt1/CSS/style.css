@@ -11,7 +11,7 @@ div#interface {
     background-color: black;
     margin: -35px auto 0px auto;
     padding: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .7);
 }
 
 div#libra img#libra-img {
@@ -94,7 +94,8 @@ figure.foto-legenda:hover figcaption { /* hover adiciona caracteristicas a eleme
 
 /* Formatação da div menu */
 nav#menu {
-    margin: 0px 0px 0px -40px /* descoberto dps de eu mexer 2 dias nos itens do menu ao invés de mexer exatamente no menu */
+    margin: 0px 0px 0px -40px; /* descoberto dps de eu mexer 2 dias nos itens do menu ao invés de mexer exatamente no menu */
+    text-align: center;    
 }
 
 nav#menu ul {
@@ -111,6 +112,7 @@ nav#menu li {
     padding: 10px;
     margin: 2px;
     transition: background-color 0.5s;
+    font-size: 25px;
 }
 
 nav#menu li:hover {
