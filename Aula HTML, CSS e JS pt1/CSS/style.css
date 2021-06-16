@@ -14,7 +14,7 @@ div#interface {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
 }
 
-div#libra img {
+div#libra img#libra-img {
     width: 500px;
     margin: auto /*parte de cima */ auto /* direita */ auto /* parte de baixo */auto /* esquerda */;
 }
@@ -126,4 +126,3 @@ nav#menu a:hover {
     color: yellow   ;
     text-decoration: underline;
 }
-
