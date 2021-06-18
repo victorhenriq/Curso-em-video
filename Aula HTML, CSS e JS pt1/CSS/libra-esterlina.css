@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    color: blue;
+}
+
+div#interface {
+    width: 1440px;
+    margin: -35px auto 0px auto;
+    background-color:goldenrod;
+    padding: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .9);
+}
+
+p {
+    text-align: justify;
+    text-indent: 35px;
+}
+
+h1 {
+    color: black;
+    text-shadow: 1px 1px 0px rgba(255, 0, 0, .9);
+    font-size: 35pt;
+    font-family:monospace;
+    text-align: center;
+}
+
+h2 {
+    color: gray;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, .9);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu {
+    margin: 0px 0px 0px -40px;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 2;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: black;
+    padding: 5px;
+    align-items: center;
+}
