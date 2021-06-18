@@ -75,10 +75,9 @@ figure.foto-legenda figcaption {
     width: 100%;
     height: 100%;
     padding: 20px; /* distancia da borda */
-    /*box-sizing: border-box; /* limita todo conteúdo pra ficar dentro da box */
     box-shadow: auto auto auto auto ; /* coloca o elemento em uma caixa */
     transition: opacity 1.5s; /* transição pra opacidade determinada */
-    box-sizing: border-box;
+    box-sizing: border-box;  /* limita todo conteúdo pra ficar dentro da box */
 }
 
 figure.foto-legenda:hover figcaption { /* hover adiciona caracteristicas a elementos ao passar o mouse em cima */
