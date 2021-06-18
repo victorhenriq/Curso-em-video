@@ -63,8 +63,19 @@ nav#menu ul {
 nav#menu li {
     display: inline-block;
     background-color: black;
-    padding: 5px;
+    padding: 3px;
     align-items: center;
+    margin: 2px;
+}
+
+nav#menu:hover a {
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+}
+
+nav#menu:hover li {
+    background-color: red;
 }
 
 div#libra {
