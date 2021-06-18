@@ -72,8 +72,6 @@ nav#menu:hover a {
     text-decoration: underline;
     color: black;
     background-color: white;
-
-    /* apagar isso dps */
 }
 
 nav#menu:hover li {
