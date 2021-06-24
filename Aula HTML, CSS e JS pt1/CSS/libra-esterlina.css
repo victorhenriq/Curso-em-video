@@ -16,7 +16,7 @@ div#interface {
 p {
     text-align: justify;
     text-indent: 35px;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 h1 {
@@ -63,9 +63,10 @@ nav#menu ul {
 nav#menu li {
     display: inline-block;
     background-color: black;
-    padding: 3px;
+    padding: 10px;
     align-items: center;
     margin: 2px;
+    font-size: 14pt;
 }
 
 nav#menu:hover a {

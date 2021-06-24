@@ -21,6 +21,7 @@ div#libra img#libra-img {
 p { 
     text-align: justify;
     text-indent: 35px;
+    font-size: 18pt;
 }
 
 h1 {
@@ -32,13 +33,13 @@ h1 {
 
 h2 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 28pt;
+    font-size: 30pt;
     color: red;
 }
 
 h3 {
     font-family: Georgia, Times, 'Times New Roman', serif;
-    font-size: 20pt;
+    font-size: 27pt;
     color: green;
     text-shadow: 1px 1px 0px black;
 }
@@ -49,7 +50,7 @@ h3 {
 }*/
 
 h4 {
-    font-size: 170%;
+    font-size: 22pt;
 }
 
 /* Formatação de imagens com legendas */
@@ -77,7 +78,7 @@ figure.foto-legenda figcaption {
     padding: 20px; /* distancia da borda */
     box-shadow: auto auto auto auto ; /* coloca o elemento em uma caixa */
     transition: opacity 1.5s; /* transição pra opacidade determinada */
-    box-sizing: border-box;  /* limita todo conteúdo pra ficar dentro da box */
+    box-sizing: border-box; 
 }
 
 figure.foto-legenda:hover figcaption { /* hover adiciona caracteristicas a elementos ao passar o mouse em cima */
