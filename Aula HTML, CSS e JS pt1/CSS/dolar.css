@@ -1,1 +1,24 @@
 @charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+div#interface {
+    background-color: darkblue;
+    width: 1440px;
+    padding: 35px;
+    margin: 35px auto 0px auto;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-size: 18pt;
+    color: white;
+    text-align: justify;
+    text-indent: 35px;
+}
