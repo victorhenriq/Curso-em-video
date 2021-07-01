@@ -11,6 +11,32 @@ div#interface {
     margin: 35px auto 0px auto;
 }
 
+div#img-dolar {
+}
+
+figure.dolarimg {
+    text-align: center;
+    position: relative;
+    margin: 0px;
+    border: 8px solid black;
+}
+
+figure.dolarimg figcaption {
+    opacity: 0;
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-shadow: white;
+    box-sizing: border-box;
+}
+
+figure.dolarimg:hover figcaption {
+    transition: 0.5s;
+    opacity: 1;
+
+}
+
 h1 {
     color: red;
     text-align: center;
