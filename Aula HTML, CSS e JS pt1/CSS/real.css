@@ -25,6 +25,36 @@ h1 {
     text-align: center;
 }
 
+div#Real {
+    text-align: center;
+    width: 100px;
+    margin: auto;
+}
+
+figure.real {
+    position: relative;
+    border: 8px, solid white;
+}
+
+figure.imgreal img {
+    text-align: left;
+}
+
+figure.imgreal figcaption {
+    opacity: 0;
+    position: absolute;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: auto;
+}
+
+figure.imgreal:hover figcaption {
+    opacity: 1;
+    transition: 0.5s;
+}
+
 nav#menu {
     margin: 0px 0px 0px -40px;
     text-align: left;

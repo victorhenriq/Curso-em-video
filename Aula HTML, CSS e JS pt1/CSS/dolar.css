@@ -12,6 +12,8 @@ div#interface {
 }
 
 div#img-dolar {
+    width: 163px;
+    margin: auto;
 }
 
 figure.dolarimg {
@@ -24,15 +26,20 @@ figure.dolarimg {
 figure.dolarimg figcaption {
     opacity: 0;
     position: absolute;
-    background-color: black;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
     color: white;
     padding: 20px;
-    box-shadow: white;
+    box-shadow: auto;
     box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 figure.dolarimg:hover figcaption {
-    transition: 0.5s;
+    transition: 0.8s;
     opacity: 1;
 
 }
