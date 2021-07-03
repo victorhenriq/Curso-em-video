@@ -6,8 +6,76 @@ body {
 
 div#interface {
     background-color: black;
+    width: 1440px;
+    margin: -35px auto 0px auto;
+    padding: 15px;
+}
+
+/* Formatação da div menu */
+nav#menu {
+    margin: 0px 0px 0px -40px; /* descoberto dps de eu mexer 2 dias nos itens do menu ao invés de mexer exatamente no menu */
+    text-align: center;    
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    color: green;
+    margin: 0%;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: red ;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.5s;
+    font-size: 25px;
+}
+
+nav#menu li:hover {
+    background-color: blue;
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+nav#menu a:hover {
+    color: yellow   ;
+    text-decoration: underline;
 }
 
 p {
     color: white;
+    font-size: 18pt;
+    text-align: justify;
+    text-indent: 35px;
+    padding: 10px;
+}   
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+}
+
+h2 {
+    color:limegreen;
+    font-size: 30pt;
+    text-align: left;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 27px;
+    color: magenta;
+    text-align: left;
+    padding: 10px;
+}
+
+div#img-yen {
+    text-align: center;
 }
