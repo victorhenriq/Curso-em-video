@@ -11,10 +11,20 @@ div#interface {
     padding: 15px;
 }
 
+header#cabecalho {
+    border-bottom: 1px white double;
+    height: 300px;
+}
+
 /* Formatação da div menu */
 nav#menu {
     margin: 0px 0px 0px -40px;
     text-align: left;
+}
+
+header#cabecalho {
+    border-bottom: 1px white double;
+    height: 300px;
 }
 
 nav#menu ul {

@@ -1,16 +1,21 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
+    background-color: darkblue;
     color: white;
 }
 
 div#interface {
     width: 1440px;
     margin: -35px auto 0px auto;
-    background-color: darkblue;
+    background-color: black;
     padding: 15px;
     box-shadow: 0px 0px 15px rgba(255, 255, 255, .9);
+}
+
+header#cabecalho {
+    border-bottom: 1px white double;
+    height: 70px;
 }
 
 p {
@@ -43,23 +48,22 @@ a {
     text-decoration: none;
 }
 
-nav#menu {
+/*nav#menu {
 
-}
+}*/
 
 nav#menu {
     text-transform: uppercase;
-    text-align: center;
+    margin: 0px 0px 0px -40px;
+
 }
 
 nav#menu li {
-    display: inline-block;
-    background-color: red;
+    display:inline-block;
+    background-color: darkblue;
     padding: 10px;
-    font-size: 14pt;
-    align-items: center;
     margin: 2px;
-    text-align: center;
+    font-size: 17px;
 
 }
 

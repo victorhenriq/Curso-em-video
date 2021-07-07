@@ -2,15 +2,20 @@
 
 body {
     background-color: white;
-    color: blue;
+    color: darkblue;
 }
 
 div#interface {
     width: 1440px;
     margin: -35px auto 0px auto;
-    background-color:goldenrod;
+    background-color:black;
     padding: 15px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, .9);
+}
+
+header#cabecalho {
+    border-bottom: 1px white double;
+    height: 300px;
 }
 
 p {
