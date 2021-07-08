@@ -22,11 +22,6 @@ nav#menu {
     text-align: left;
 }
 
-header#cabecalho {
-    border-bottom: 1px white double;
-    height: 300px;
-}
-
 nav#menu ul {
     text-transform: uppercase;
     position: relative;
